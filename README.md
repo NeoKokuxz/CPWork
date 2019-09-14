@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 - [x] added backgroup to make the UI more soft.
 - [x] Load up logo for the app.
 - [x] added auto-layout constraint to fit all the screen sizes.
-
+- [x] added custmized App icon for all the iphone models. 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
@@ -34,6 +34,7 @@ Here's a walkthrough of implemented user stories:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
+http://g.recordit.co/NMwnQOtwiQ.gif
 
 ## Notes
 
