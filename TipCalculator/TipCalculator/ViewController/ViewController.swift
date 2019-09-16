@@ -10,12 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    //Outlets
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var billAmount: UITextField!
     @IBOutlet weak var totalAmount: UILabel!
     @IBOutlet weak var tipBar: UISegmentedControl!
     
+    //Global values
     var bill : Double = 0
     let tipPercentage = [0.15, 0.18, 0.20, 0]
     var tip = 0.00
@@ -24,17 +25,21 @@ class ViewController: UIViewController {
     @IBAction func tipBar(_ sender: Any) {
         
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         updateUI()
+        //Set numberpad always visible
+        billAmount.becomeFirstResponder()
     }
     @IBAction func onTap(_ sender: Any) {
-        view.endEditing(true)
+        //This prevents number pad disappear
+        //view.endEditing(true)
     }
     @IBAction func resetButton(_ sender: UIButton) {
         updateUI()
-    }
+        }
     
     @IBAction func TipCalculate(_ sender: Any) {
         
@@ -45,8 +50,11 @@ class ViewController: UIViewController {
         tip = bill * tipPercentage[tipBar.selectedSegmentIndex]
         total = tip + bill
         //Update the labels
-        tipLabel.text = String(format: "$%.2f", tip)
-        totalAmount.text =  String(format: "$%.2f", total)
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .decimal
+        //Set thousand places
+        tipLabel.text = "$" + String(numberFormatter.string(from:NSNumber(value:tip))!)
+        totalAmount.text =  "$" + String(numberFormatter.string(from: NSNumber(value:total))!)
     }
     
     func updateUI(){
@@ -57,4 +65,3 @@ class ViewController: UIViewController {
         tipBar.selectedSegmentIndex = 0
     }
 }
-
