@@ -36,7 +36,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 
-![](http://g.recordit.co/NMwnQOtwiQ.gif).
+![](http://g.recordit.co/GzRp2ZP4Im.gif).
 
 
 ## Notes

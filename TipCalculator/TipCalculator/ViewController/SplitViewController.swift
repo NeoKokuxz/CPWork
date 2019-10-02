@@ -30,6 +30,9 @@ class SplitViewController: UIViewController {
         splitTotal.text = "$" + String(finalAmount)
         splitPPL.becomeFirstResponder()
     }
+    @IBAction func onTap(_ sender: Any) {
+        view.endEditing(true)
+    }
     
     
     @IBAction func splitCalculator(_ sender: Any) {

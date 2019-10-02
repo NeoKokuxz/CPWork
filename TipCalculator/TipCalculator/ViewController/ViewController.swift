@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var billAmount: UITextField!
     @IBOutlet weak var totalAmount: UILabel!
     @IBOutlet weak var tipBar: UISegmentedControl!
-    @IBOutlet weak var splitTotal: UILabel!
     
     //Global values
     var bill : Double = 0

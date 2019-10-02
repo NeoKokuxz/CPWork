@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OMt-xF-Kuz">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
@@ -13,14 +13,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TipCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="levi-saunders-71726.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Vwb-yv-AQg">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="770"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PXY-vu-Q2x" userLabel="LowerViewContainer">
-                                <rect key="frame" x="0.0" y="285.5" width="414" height="611.5"/>
+                                <rect key="frame" x="0.0" y="285.66666666666674" width="414" height="485.33333333333326"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TotalAmount:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6e8-Ou-Czl">
                                         <rect key="frame" x="47" y="46" width="102" height="21"/>
@@ -79,16 +79,16 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjS-8d-2ce" userLabel="UpperViewContainer">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="285.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="285.33333333333331"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$Amount:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDV-o6-d4e">
-                                        <rect key="frame" x="40" y="88" width="75.5" height="23.5"/>
+                                        <rect key="frame" x="40.000000000000007" y="88" width="75.666666666666686" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="pSJ-1s-2OC">
-                                        <rect key="frame" x="35" y="208.5" width="350" height="32"/>
+                                        <rect key="frame" x="35" y="208.33333333333334" width="350" height="32"/>
                                         <segments>
                                             <segment title="15%"/>
                                             <segment title="18%"/>
@@ -100,7 +100,7 @@
                                         </connections>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$Tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXk-gF-AtH">
-                                        <rect key="frame" x="40" y="132" width="35" height="21.5"/>
+                                        <rect key="frame" x="40" y="132" width="35" height="21.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -190,11 +190,15 @@
             <objects>
                 <viewController id="1eZ-us-cGQ" customClass="SplitViewController" customModule="TipCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vkM-vU-Px9" userLabel="View">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="levi-saunders-71726.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="q0N-0Z-J2W">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="vR8-ve-b1O" appends="YES" id="BSG-dR-ore"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split$" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qf-fz-ruC">
                                 <rect key="frame" x="204" y="207" width="184" height="62"/>
@@ -222,6 +226,8 @@
                                 <rect key="frame" x="204" y="95" width="184" height="62"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62" id="6hL-Xo-tmv"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="62" id="e18-WC-Bns"/>
+                                    <constraint firstAttribute="width" constant="184" id="e1J-bw-4k3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -232,6 +238,8 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="67" id="4OX-7C-NTc"/>
                                     <constraint firstAttribute="height" constant="62" id="PfQ-jE-Eet"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="67" id="RYY-2e-s6o"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="62" id="XJN-pN-q0y"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -240,8 +248,10 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4d-bP-28F">
                                 <rect key="frame" x="20" y="207" width="67" height="30"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="67" id="0cZ-yR-klH"/>
                                     <constraint firstAttribute="width" constant="67" id="Fdi-xK-btb"/>
                                     <constraint firstAttribute="height" constant="30" id="rqx-jl-2Ss"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="z9o-Ut-vmB"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -250,23 +260,32 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="A4d-bP-28F" firstAttribute="leading" secondItem="OMg-sK-og9" secondAttribute="leading" constant="20" id="3Sa-sA-zGw"/>
                             <constraint firstItem="OMg-sK-og9" firstAttribute="bottom" secondItem="A4d-bP-28F" secondAttribute="bottom" constant="571" id="8xg-v2-nyR"/>
+                            <constraint firstItem="A99-43-V8W" firstAttribute="leading" secondItem="OMg-sK-og9" secondAttribute="leading" constant="20" id="9Pj-1A-ECY"/>
                             <constraint firstItem="OMg-sK-og9" firstAttribute="bottom" secondItem="7qf-fz-ruC" secondAttribute="bottom" constant="539" id="BO3-LR-I6y"/>
                             <constraint firstItem="OMg-sK-og9" firstAttribute="trailing" secondItem="jH4-hm-Fyt" secondAttribute="trailing" constant="26" id="DWe-9v-zKG"/>
+                            <constraint firstItem="OMg-sK-og9" firstAttribute="bottom" secondItem="A4d-bP-28F" secondAttribute="bottom" constant="571" id="J12-su-iom"/>
                             <constraint firstItem="7qf-fz-ruC" firstAttribute="leading" secondItem="A4d-bP-28F" secondAttribute="trailing" constant="117" id="LhG-Af-Htz"/>
                             <constraint firstItem="A4d-bP-28F" firstAttribute="top" secondItem="A99-43-V8W" secondAttribute="bottom" constant="50" id="M0r-yD-ZMj"/>
                             <constraint firstItem="q0N-0Z-J2W" firstAttribute="top" secondItem="vkM-vU-Px9" secondAttribute="top" id="M3y-se-2eM"/>
                             <constraint firstItem="A99-43-V8W" firstAttribute="top" secondItem="vkM-vU-Px9" secondAttribute="topMargin" constant="95" id="Ptd-oz-Y8h"/>
                             <constraint firstItem="OMg-sK-og9" firstAttribute="trailing" secondItem="HGl-xC-eIR" secondAttribute="trailing" constant="26" id="SbR-ag-4cX"/>
                             <constraint firstItem="q0N-0Z-J2W" firstAttribute="trailing" secondItem="OMg-sK-og9" secondAttribute="trailing" id="UPP-5V-KJX"/>
+                            <constraint firstItem="A4d-bP-28F" firstAttribute="top" secondItem="A99-43-V8W" secondAttribute="bottom" constant="50" id="VJo-lQ-oNV"/>
+                            <constraint firstItem="7qf-fz-ruC" firstAttribute="leading" secondItem="A4d-bP-28F" secondAttribute="trailing" constant="117" id="XoK-v9-W7E"/>
+                            <constraint firstItem="HGl-xC-eIR" firstAttribute="leading" secondItem="A99-43-V8W" secondAttribute="trailing" constant="117" id="crn-Qt-fNx"/>
                             <constraint firstAttribute="bottom" secondItem="q0N-0Z-J2W" secondAttribute="bottom" id="emr-JW-hIu"/>
                             <constraint firstItem="A99-43-V8W" firstAttribute="leading" secondItem="vkM-vU-Px9" secondAttribute="leadingMargin" id="f74-Jw-vfG"/>
                             <constraint firstItem="q0N-0Z-J2W" firstAttribute="leading" secondItem="OMg-sK-og9" secondAttribute="leading" id="gP3-hd-NlK"/>
                             <constraint firstItem="OMg-sK-og9" firstAttribute="trailing" secondItem="7qf-fz-ruC" secondAttribute="trailing" constant="26" id="gQi-32-yv8"/>
+                            <constraint firstItem="A4d-bP-28F" firstAttribute="top" secondItem="A99-43-V8W" secondAttribute="bottom" constant="50" id="hd6-sv-GSY"/>
                             <constraint firstItem="A4d-bP-28F" firstAttribute="leading" secondItem="OMg-sK-og9" secondAttribute="leading" constant="20" id="hzk-E8-dif"/>
                             <constraint firstItem="jH4-hm-Fyt" firstAttribute="leading" secondItem="OMg-sK-og9" secondAttribute="leading" constant="291" id="kih-eI-h4E"/>
                             <constraint firstItem="7qf-fz-ruC" firstAttribute="top" secondItem="jH4-hm-Fyt" secondAttribute="bottom" constant="8" id="oVA-h6-ZeW"/>
                             <constraint firstItem="HGl-xC-eIR" firstAttribute="leading" secondItem="A99-43-V8W" secondAttribute="trailing" constant="117" id="q7A-Bm-cHX"/>
+                            <constraint firstItem="A99-43-V8W" firstAttribute="top" secondItem="OMg-sK-og9" secondAttribute="top" constant="95" id="rjS-O9-A8u"/>
+                            <constraint firstItem="A99-43-V8W" firstAttribute="leading" secondItem="OMg-sK-og9" secondAttribute="leading" constant="20" id="s69-uX-P98"/>
                             <constraint firstItem="HGl-xC-eIR" firstAttribute="top" secondItem="OMg-sK-og9" secondAttribute="top" constant="95" id="yls-vZ-cAI"/>
                             <constraint firstItem="jH4-hm-Fyt" firstAttribute="top" secondItem="HGl-xC-eIR" secondAttribute="bottom" constant="8" id="yuC-ld-KTW"/>
                         </constraints>
@@ -280,6 +299,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVa-Y6-MCl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="vR8-ve-b1O">
+                    <connections>
+                        <action selector="onTap:" destination="1eZ-us-cGQ" id="V4w-oJ-8Bg"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="3631.884057971015" y="18.75"/>
         </scene>
@@ -289,7 +313,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OMt-xF-Kuz" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="axk-Iq-Ags">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
